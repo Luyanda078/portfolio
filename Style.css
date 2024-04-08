@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container .bero{
+    margin-right: 45px;
+}
+
+
+.hero{
+    width: 100%;
+    min-height: 100svh;
+    background-image: url(back-image.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+    color:white;
+
+}
+nav ul li{
+    
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+    margin-right: 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    margin-right: 45px 45px;
+    
+}
+div h3 p{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 50%;
+}
+
+.content{
+    margin-top: 10%;
+    max-width: 600;
+}
+.content h1{
+    font-size: 70px;
+    color: #222;
+}
+.content p{
+    margin: 10px 0 30px;
+    color: #333;
+}
+.content .btn{
+    padding: 15px 80px;
+    font-size: 16px;
+}
+.btn:hover{
+    border-top-right-radius:30px;
+}
+.feature-img{
+   width: 530px;
+   position: absolute;
+   bottom: 0;
+   right: 10%;
+
+}
+.footer{
+    background:#303036;
+    color: #d3d3d3;
+    height: 150px;
+    position: relative;
+}
+.footer .foote-content{
+    border: 1px solid red;
+    height: 150px;
+    display: flex;
+}
+.footer .foote-content .footer-section{
+    flex: 1;
+    border: 1px solid white;
+}
+.footer .foote-content .address .socials spam{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+.footer .foote-content .footer-section adress .socials a:hover{
+    border: 1px solid white;
+    color: white;
+  
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: left;
+
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+.socialIcons a{
+    font: size 3.5em;
+    color: black;
+    opacity: 0.9;
+}
+.socialIcons a:hover{
+    background-color: #333;
+    transition: 0.5;
+
+}
+.socialIcons a{
+    color: black;
+    transition: 0.5;
+}
