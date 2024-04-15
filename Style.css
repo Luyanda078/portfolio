@@ -4,10 +4,14 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.container .bero{
-    margin-right: 45px;
-}
+.video{
+    margin: 50px 5px 0px 0px
+    
 
+}
+.video{
+    right: 75%;
+}
 
 .hero{
     width: 100%;
@@ -20,7 +24,7 @@
     position: relative;
 }
 nav{
-    padding: 10px 0;
+    padding: 10px 5;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -71,10 +75,10 @@ div h3 p{
     border-top-right-radius:30px;
 }
 .feature-img{
-   width: 530px;
+   width: 400px;
    position: absolute;
    bottom: 0;
-   right: 10%;
+   right: 15%;
 
 }
 .footer{
@@ -133,3 +137,8 @@ div h3 p{
     color: black;
     transition: 0.5;
 }
+body .contanainer{
+    text-align: center;
+}
+
+ 

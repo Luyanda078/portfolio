@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+   
+    .about{
+        
+      text-align: center;
+      margin-top: 3rem;
+      margin-bottom: 15px;  
+    }
+    .workexperience-content{
+        display: flax;
+        justify-content:space-evenly;
+        margin: 2rem;
+    }
+    .btn-lob{
+        width: 4rem;
+        background-color: blue;
+        color: white;
+        border-radius: 1.5rem;
+        height: 1.5rem;
+        border: none;
+    }
+    .line{
+       border-bottom: 1px solid blue;
+       display: block;
+       width:80%;
+       margin-left:15%;
+       margin-bottom: 15px;
+    }
+    .about subtitle{
+        margin-bottom: 15px;
+    }
+    h2{
+        color: blue;
+    }
+    h1{
+        color: blue;
+    }
+
+    
+
