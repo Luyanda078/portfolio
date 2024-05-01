@@ -1,12 +1,12 @@
 function handleFormSubmit(event) {
     event.preventDefault()
-    // console.log(event);
+   
 
-    // console.log(document);
+ 
     const emailInput = document.getElementById("email")
     const messageInput = document.getElementById("message")
 
-    // console.log(emailInput);
+   
     const isEmailValid = emailInput.value.trim() !== '' && emailInput.validity.valid
     console.log(isEmailValid);
     let isMessageValid = messageInput.value.trim() !== '';
@@ -15,7 +15,7 @@ function handleFormSubmit(event) {
     const isFormValid = isEmailValid && isMessageValid
 
     if(isFormValid) {
-        // grab our data from the form
+        
         const formData = new FormData(event.target)
         console.log(formData);
         fetch('https://formspree.io/f/xkndkobk', 
